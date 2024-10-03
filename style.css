@@ -75,6 +75,17 @@ a {
     transition: .2s;
     color: rgb(24, 29, 26);
 }
+
+.navegacion_icon{
+    display: flex;
+    justify-content: center;
+    color: #FFD700;
+    font-size: 1.5rem;
+    max-width: auto; 
+}
+
+
+
 /* ------------------------------ Sección Presentación ------------------------------*/
 .presentacion {
     display: flex;
@@ -175,7 +186,7 @@ img .presentacion__foto {
 .icons_reconocimiento, .icons_desarrollo, .icons_equipo, .icons_terminal{
     text-align: center;
     margin: 20px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .icons_reconocimiento i {
