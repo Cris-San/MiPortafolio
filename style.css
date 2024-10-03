@@ -1,0 +1,248 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+    --color-de-evento-hover:rgb(70, 130, 221);
+    --color-fuente:white;
+}
+
+body {
+    background-color: #eff2f5;;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color:#F0F0F0;
+}
+
+.cabecera__logo {
+   display: flex;
+   width: 20%;
+   height:20%;
+   border-radius: 50%;
+   border: solid 2px white;
+   object-fit: cover;
+}
+
+
+.cabecera__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cabecera__titulo:hover {
+    
+    color: #007bff;
+    
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__elemento a {
+    font-size: 1.5rem;
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.navegacion__elemento a:hover{
+    
+    border-bottom: 2px solid #007bff;
+    transition: .2s;
+    color: rgb(24, 29, 26);
+}
+/* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.presentacion_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentacion__titulo{
+    max-width: 800px;
+    text-align: left;
+    margin: 20px;
+    padding: 30px;
+}
+.presentacion__foto{
+    display: flex;
+    border-radius:50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    border: 2px solid rgba(105, 204, 171, 0.575); 
+    width: 20%;
+    height: 20%;
+    
+}
+
+img .presentacion__foto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+
+}
+
+.redes a {
+    display: flex;
+    font-size: 40px;
+    padding: 10px;
+    justify-content:center;
+    flex-direction: column;
+    color: black;
+}
+
+.fa-linkedin{
+    color: #0A66C2 ;
+}
+
+.ga-github{
+    color:#181717;
+}
+
+.fa-envelope{
+    color:#EA4335;
+}
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre-mi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mi__titulo{
+    text-align: center;
+    font-size: 50px;
+}
+.sobre-mi__texto {
+   max-width: 800px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: left;
+   align-items: center;
+   margin:10px;
+   padding: 1px;
+   font-size: 18px;
+   line-height: 1.6;
+}
+
+.icons_reconocimiento, .icons_desarrollo, .icons_equipo, .icons_terminal{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.icons_reconocimiento i {
+    
+    color: #FFD700;
+}
+
+.icons_desarrollo i {
+    color: blue;
+}
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+
+/*------------------------------ Sección de Proyectos --------------------------------*/
+
+
+/*------------------------------ Sección de Contacto ---------------------------------*/
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecera__logo {
+        max-width: 80px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .presentacion__foto{
+        display: none;
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}
