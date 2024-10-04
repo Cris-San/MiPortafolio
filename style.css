@@ -203,7 +203,27 @@ img .presentacion__foto {
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+}
 
+.habilidades_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades__lista{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+   
+}
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
