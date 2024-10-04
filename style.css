@@ -195,7 +195,11 @@ img .presentacion__foto {
 }
 
 .icons_desarrollo i {
-    color: blue;
+    color: #00BFFF;
+}
+
+.icons_terminal{
+    color: #007BFF;
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
