@@ -210,21 +210,87 @@ img .presentacion__foto {
     padding: 2rem;
 }
 
-.habilidades_titulo{
+.habilidades__titulo{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
 }
 
 .habilidades__lista{
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-
+   align-items: center;
    
 }
 
+.habilidades__elemento{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+
+.habilidades__elemento:hover {
+    background-color: #52a8e0; /* Color de fondo al pasar el mouse */
+}
+
+
+.habilidades__elemento i{
+    font-size: 50px;
+}
+.habilidades__nombre{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.habilidades__icono{
+    font-size: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover: cambio de tamaño y color del ícono */
+.habilidades__elemento:hover .habilidades__icono {
+    transform: scale(1.4); /* Agranda el ícono al pasar el mouse */
+}
+
+
+.icono_html{
+    color: #E34F26;
+}
+
+.icono_js{
+    color: #F7DF1E;
+}
+
+.icono_php{
+    color: #777BB3;
+}
+
+.icono_node{
+    color: #339933;
+}
+.icono_react{
+    color: #61DAFB;
+}
+
+.icono_css{
+    color: #1572B6;
+}
+
+.icono_mysql {
+    color: #00758F;
+}
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 
