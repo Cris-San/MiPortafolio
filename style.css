@@ -113,7 +113,7 @@ a {
     object-fit: cover;
     object-position: 50% 50%;
     cursor: pointer;
-    border: 2px solid rgba(105, 204, 171, 0.575); 
+    border: 2px solid hsla(220, 6%, 10%, 0.575); 
     width: 20%;
     height: 20%;
     
@@ -132,18 +132,19 @@ img .presentacion__foto {
 .redes{
     display: flex;
     justify-content: center;
+    font-size: 40px;
     gap: 15px;
     margin: 20px;
-
 }
 
+.redes a:hover{
+    transform:scale(2.1);
+}
 .redes a {
     display: flex;
-    font-size: 40px;
     padding: 10px;
     justify-content:center;
     flex-direction: column;
-    color: black;
 }
 
 .fa-linkedin{
@@ -183,7 +184,7 @@ img .presentacion__foto {
    line-height: 1.6;
 }
 
-.icons_reconocimiento, .icons_desarrollo, .icons_equipo, .icons_terminal{
+.icons_reconocimiento, .icons_desarrollo, .icons_habilidad, .icons_terminal{
     text-align: center;
     margin: 20px;
     font-size: 60px;
@@ -191,15 +192,18 @@ img .presentacion__foto {
 
 .icons_reconocimiento i {
     
-    color: #FFD700;
+    color: rgb(192, 192, 192);
 }
 
 .icons_desarrollo i {
     color: #00BFFF;
 }
 
-.icons_terminal{
-    color: #007BFF;
+.icons_habilidad{
+    color:#ffcc00;
+}
+.icons_terminal i{
+    color: #4CAF50;
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
@@ -208,6 +212,20 @@ img .presentacion__foto {
     flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
+}
+
+#habilidades-tecnicas, 
+#habilidades-blandas{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out; /* Duración y tipo de transición */
+}
+
+#habilidades-tecnicas:hover,
+#habilidades-blandas:hover{
+    border-radius: 2px solid #4CAF50;
+    transform: scale(1.05);
 }
 
 .habilidades__titulo{
@@ -223,7 +241,6 @@ img .presentacion__foto {
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   
 }
 
 .habilidades__elemento{
@@ -240,7 +257,9 @@ img .presentacion__foto {
 
 
 .habilidades__elemento:hover {
-    background-color: #52a8e0; /* Color de fondo al pasar el mouse */
+    background-color: rgba(82, 168, 224, 0.2); /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: box-shadow 0.3s ease;
 }
 
 
@@ -260,11 +279,11 @@ img .presentacion__foto {
 }
 
 /* Efecto hover: cambio de tamaño y color del ícono */
-.habilidades__elemento:hover .habilidades__icono {
+.habilidades__elemento:hover .habilidades__icono  {
     transform: scale(1.4); /* Agranda el ícono al pasar el mouse */
 }
 
-
+/*Iconos Habilidades Técnicas*/
 .icono_html{
     color: #E34F26;
 }
@@ -291,6 +310,33 @@ img .presentacion__foto {
 .icono_mysql {
     color: #00758F;
 }
+
+/*Iconos Habilidades Blandas*/
+.icono_comunicacion{
+   color:  #007BFF;
+}
+
+.icono_equipo{
+    color: #28A745 ;
+}
+
+.icono_problemas{
+  color: #FFC107;  
+}
+
+.icono_adaptabilidad{
+    color:#FD7E14;
+}
+
+.icono_tiempo{
+    color:#6F42C1;
+}
+
+
+
+
+
+
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 
