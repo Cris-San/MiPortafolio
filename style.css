@@ -332,13 +332,105 @@ img .presentacion__foto {
     color:#6F42C1;
 }
 
-
-
-
-
-
 /*------------------------------ Sección de Aficiones --------------------------------*/
+#aficiones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
 
+.aficiones__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aficiones__lista{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aficiones__elemento{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+    animation: mover 5s linear infinite;
+}
+
+.aficiones__elemento:hover{
+    background-color: rgba(245, 55, 8, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.aficiones__icono{
+    font-size: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.aficiones__elemento:hover .aficiones__icono{
+    transform: scale(1.4);
+}
+.aficiones__elemento i{
+    font-size: 60px;
+}
+
+.aficiones__icono{
+    font-size: 100px;
+}
+
+.aficiones__icono_podcast{
+    color: #E91E63;
+}
+
+.aficiones__icono_leer{
+   color: #3F51B5;
+}
+
+.aficiones__icono_musica{
+    color: #FF9800;
+ }
+
+ .aficiones__icono_peliculas{
+    color: #F44336;
+ }
+
+ .aficiones__icono_gata{
+    color: #FFEB3B;
+ }
+
+.aficiones__nombre{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(20px);
+
+    }
+
+    100%{
+        transform: translateX(0);
+
+    }
+}
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
