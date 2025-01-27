@@ -48,35 +48,29 @@ Crear un portafolio moderno, dinámico y responsive que destaque:
 └── formacion.html     # Formación académica y profesional
 ```
 
-🚧 Estado del proyecto
+## 🚧 Estado del proyecto
+
 Actualmente, el portafolio está en desarrollo y se encuentra en la fase final de ajustes. Próximamente estará disponible para su visualización y retroalimentación.
 
-🌐 Demo
+
+## 🌐 Demo
 Pronto podrás acceder a la versión en vivo a través de GitHub Pages.
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 Las sugerencias y mejoras siempre son bienvenidas. Si deseas contribuir o tienes ideas para este proyecto, no dudes en abrir un pull request o contactarme directamente.
 
-📫 Contacto
+
+## 📫 Contacto
 Puedes encontrarme en:
 
-🌐 LinkedIn
-🐙 GitHub
-✉️ Email: cris.san@example.com
-🏆 Créditos
+🌐 LinkedIn: https://www.linkedin.com/feed/
+🐙 GitHub: https://github.com/Cris-San
+✉️ Email: cris629.cso@gmail.com
+
+## 🏆 Créditos
 Este portafolio es un reflejo de mi aprendizaje y dedicación en el desarrollo web. Creado con 💻, 🎨 y ☕.
 
 ---
-
-### ¿Qué incluye y cómo ajustarlo?  
-1. **Título con emojis** para captar la atención.  
-2. **Propósito claro:** Explica el objetivo principal.  
-3. **Características y tecnologías:** Resalta lo que hace único tu portafolio y cómo lo construiste.  
-4. **Estructura del proyecto:** Ayuda a otros a entender cómo está organizado.  
-5. **Estado del proyecto:** Indica que está en desarrollo.  
-6. **Contacto:** Añade enlaces para que puedan comunicarse contigo.  
-
-Si necesitas ayuda adicional para completarlo o agregar capturas de pantalla, avísame. 🚀
 
 
 
