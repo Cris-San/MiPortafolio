@@ -63,7 +63,7 @@ Las sugerencias y mejoras siempre son bienvenidas. Si deseas contribuir o tienes
 ## 📫 Contacto
 Puedes encontrarme en:
 
-🌐 LinkedIn: https://www.linkedin.com/feed/
+🌐 LinkedIn: [https://www.linkedin.com/feed/](https://www.linkedin.com/in/yubercristiansanchezospina/)
 🐙 GitHub: https://github.com/Cris-San
 ✉️ Email: cris629.cso@gmail.com
 
